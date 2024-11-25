@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-19 qc /home/test/physx4.1_source_loong25_clang19/physx/bin/linux.loongarch64/debug/libSnippetUtils_static_64.a CMakeFiles/SnippetUtils.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetutils/SnippetUtils.cpp.o
+/usr/bin/llvm-ranlib-19 /home/test/physx4.1_source_loong25_clang19/physx/bin/linux.loongarch64/debug/libSnippetUtils_static_64.a

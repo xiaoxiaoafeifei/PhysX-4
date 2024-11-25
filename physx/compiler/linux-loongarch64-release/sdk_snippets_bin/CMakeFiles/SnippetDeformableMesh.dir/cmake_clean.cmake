@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "/home/test/physx4.1_source_loong25_clang19/physx/bin/linux.loongarch64/release/SnippetDeformableMesh_64"
+  "/home/test/physx4.1_source_loong25_clang19/physx/bin/linux.loongarch64/release/SnippetDeformableMesh_64.pdb"
+  "CMakeFiles/SnippetDeformableMesh.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetcommon/ClassicMain.cpp.o"
+  "CMakeFiles/SnippetDeformableMesh.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetcommon/ClassicMain.cpp.o.d"
+  "CMakeFiles/SnippetDeformableMesh.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetdeformablemesh/SnippetDeformableMesh.cpp.o"
+  "CMakeFiles/SnippetDeformableMesh.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetdeformablemesh/SnippetDeformableMesh.cpp.o.d"
+  "CMakeFiles/SnippetDeformableMesh.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetdeformablemesh/SnippetDeformableMeshRender.cpp.o"
+  "CMakeFiles/SnippetDeformableMesh.dir/home/test/physx4.1_source_loong25_clang19/physx/snippets/snippetdeformablemesh/SnippetDeformableMeshRender.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/SnippetDeformableMesh.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

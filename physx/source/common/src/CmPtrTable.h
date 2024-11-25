@@ -129,7 +129,6 @@ private:
 	PxU16	mCount;
 	bool	mOwnsMemory;
 	bool	mBufferUsed;		// dark magic in serialization requires this, otherwise redundant because it's logically equivalent to mCount == 1.
-
 };
 
 } // namespace Cm

@@ -27,11 +27,6 @@
 #ifndef __gl_h_
 #define __gl_h_
 
-#if defined(USE_MGL_NAMESPACE)
-#include "gl_mangle.h"
-#endif
-
-
 /**********************************************************************
  * Begin system-specific stuff.
  */
@@ -47,9 +42,9 @@
 #    define GLAPI __declspec(dllimport)
 #  else /* for use with static link lib build of Win32 edition only */
 #    define GLAPI extern
-#  endif /* _STATIC_MESA support */
+#  endif
 #  if defined(__MINGW32__) && defined(GL_NO_STDCALL) || defined(UNDER_CE)  /* The generated DLLs by MingW with STDCALL are not compatible with the ones done by Microsoft's compilers */
-#    define GLAPIENTRY 
+#    define GLAPIENTRY
 #  else
 #    define GLAPIENTRY __stdcall
 #  endif
@@ -95,10 +90,6 @@
 
 #ifndef GLAPIENTRYP
 #define GLAPIENTRYP GLAPIENTRY *
-#endif
-
-#if defined(PRAGMA_EXPORT_SUPPORTED)
-#pragma export on
 #endif
 
 /*
@@ -694,7 +685,7 @@ typedef double		GLclampd;	/* double precision float in [0,1] */
 #define GL_LIST_BIT				0x00020000
 #define GL_TEXTURE_BIT				0x00040000
 #define GL_SCISSOR_BIT				0x00080000
-#define GL_ALL_ATTRIB_BITS			0x000FFFFF
+#define GL_ALL_ATTRIB_BITS			0xFFFFFFFF
 
 
 /* OpenGL 1.1 */
@@ -2090,7 +2081,7 @@ typedef void (APIENTRYP PFNGLBLENDEQUATIONSEPARATEATIPROC) (GLenum modeRGB, GLen
 
 
 /* GL_OES_EGL_image */
-#ifndef GL_OES_EGL_image
+#if !defined(GL_OES_EGL_image) && !defined(GL_EXT_EGL_image_storage)
 typedef void* GLeglImageOES;
 #endif
 
@@ -2103,26 +2094,6 @@ GLAPI void APIENTRY glEGLImageTargetRenderbufferStorageOES (GLenum target, GLegl
 typedef void (APIENTRYP PFNGLEGLIMAGETARGETTEXTURE2DOESPROC) (GLenum target, GLeglImageOES image);
 typedef void (APIENTRYP PFNGLEGLIMAGETARGETRENDERBUFFERSTORAGEOESPROC) (GLenum target, GLeglImageOES image);
 #endif
-
-
-/**
- ** NOTE!!!!!  If you add new functions to this file, or update
- ** glext.h be sure to regenerate the gl_mangle.h file.  See comments
- ** in that file for details.
- **/
-
-
-
-/**********************************************************************
- * Begin system-specific stuff
- */
-#if defined(PRAGMA_EXPORT_SUPPORTED)
-#pragma export off
-#endif
-
-/*
- * End system-specific stuff
- **********************************************************************/
 
 
 #ifdef __cplusplus

@@ -1,0 +1,42 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Adjacencies.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Adjacencies.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Adjacencies.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/BVHStructureBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/BVHStructureBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/BVHStructureBuilder.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Cooking.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Cooking.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Cooking.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/CookingUtils.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/CookingUtils.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/CookingUtils.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/EdgeList.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/EdgeList.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/EdgeList.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/MeshCleaner.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/MeshCleaner.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/MeshCleaner.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Quantizer.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Quantizer.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/Quantizer.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/BigConvexDataBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/BigConvexDataBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/BigConvexDataBuilder.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullBuilder.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullLib.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullLib.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullLib.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullUtils.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullUtils.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexHullUtils.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexMeshBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexMeshBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexMeshBuilder.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexPolygonsBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexPolygonsBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/ConvexPolygonsBuilder.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/QuickHullConvexHullLib.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/QuickHullConvexHullLib.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/QuickHullConvexHullLib.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/VolumeIntegration.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/VolumeIntegration.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/convex/VolumeIntegration.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/GrbTriangleMeshCooking.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/GrbTriangleMeshCooking.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/GrbTriangleMeshCooking.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/HeightFieldCooking.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/HeightFieldCooking.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/HeightFieldCooking.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/MeshBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/MeshBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/MeshBuilder.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/RTreeCooking.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/RTreeCooking.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/RTreeCooking.cpp.o.d"
+  "/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/TriangleMeshBuilder.cpp" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/TriangleMeshBuilder.cpp.o" "gcc" "sdk_source_bin/CMakeFiles/PhysXCooking.dir/home/test/physx4.1_source_loong25_clang19/physx/source/physxcooking/src/mesh/TriangleMeshBuilder.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
